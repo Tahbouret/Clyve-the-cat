@@ -2837,7 +2837,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4595471834842218065, guid: 26cf1c37c4a3bc84d9e51ea3559b3e50, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 999051494}
+    - targetCorrespondingSourceObject: {fileID: 4595471834842218065, guid: 26cf1c37c4a3bc84d9e51ea3559b3e50, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 999051493}
   m_SourcePrefab: {fileID: 100100000, guid: 26cf1c37c4a3bc84d9e51ea3559b3e50, type: 3}
 --- !u!4 &495063156 stripped
 Transform:
@@ -2849,7 +2855,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4595471834842218069, guid: 26cf1c37c4a3bc84d9e51ea3559b3e50, type: 3}
   m_PrefabInstance: {fileID: 495063155}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 999051492}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 04ef2e38ca58cd64d8719d57dcc866f6, type: 3}
@@ -5622,6 +5628,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71a80d66dae24224ebcabfe39d23d6d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &999051492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4595471834842218065, guid: 26cf1c37c4a3bc84d9e51ea3559b3e50, type: 3}
+  m_PrefabInstance: {fileID: 495063155}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &999051493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999051492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 1a18b7715b520a144a73f267c5755c0b, type: 2}
+--- !u!114 &999051494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999051492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"IsOn","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"TrapDoorToOpen","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1001 &1011547049
 PrefabInstance:
   m_ObjectHideFlags: 0
