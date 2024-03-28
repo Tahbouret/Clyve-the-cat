@@ -1696,9 +1696,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9028795662676239985, guid: 22d59b20465e9474da4bf1fabb934fd0, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 234937627}
-    - targetCorrespondingSourceObject: {fileID: 9028795662676239985, guid: 22d59b20465e9474da4bf1fabb934fd0, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 234937628}
     - targetCorrespondingSourceObject: {fileID: 9028795662676239985, guid: 22d59b20465e9474da4bf1fabb934fd0, type: 3}
       insertIndex: -1
@@ -1725,22 +1722,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9028795662676239985, guid: 22d59b20465e9474da4bf1fabb934fd0, type: 3}
   m_PrefabInstance: {fileID: 234937623}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &234937627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234937626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 23eaa153e74c9cb4fbe73543e8272589, type: 2}
 --- !u!114 &234937628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5662,8 +5643,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"IsOn","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"TrapDoorToOpen","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"IsOn","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TrapDoorToOpen","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 3167424557500690278}
 --- !u!1001 &1011547049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11866,7 +11850,7 @@ MonoBehaviour:
     - {fileID: 1289011742}
     PrefabIndex: 1
     Rotation: 3
-  m_SpawnPoint: {x: -2, y: 0, z: -1}
+  m_SpawnPoint: {x: 5, y: 0, z: -2}
   m_EndPoint: {x: 6, y: 0, z: -1}
   m_InteractiveCutWalls:
   - {fileID: 1110172099}
